@@ -1,0 +1,189 @@
+---
+title: ""
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+
+```{r knitr_init, echo=FALSE, cache=FALSE, warning=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+
+opts_knit$set(width=75)
+```
+```{r, eval=F}
+source("s00_init.R")
+load_packages(c("WDI","data.table"))
+```
+
+# Intro #
+
+The purpose of this document is to provide an overview of what is available in the [WDI](http://www.worldbank.org) data to select a subset of variables for the dashboard.
+
+# `WDI` Package Usage #
+
+```{r, eval=FALSE, echo=T}
+WDI( # download WDI data
+  country    = "all",
+  indicators = "X",     # see WDIsearch()
+  start      = "YYYY",
+  end        = "YYYY"
+  extra      = TRUE     # request extra variables (region, iso3c code, incomeLevel)
+)
+
+WDIcache() # update list of available indicators
+
+WDIsearch(
+  string = "X",   # string to be searched
+  field  = "Y",   # one of: indicator, name, description, sourceDatabase
+  short  = TRUE   # output format
+)
+
+WDI_data() # a list of 2 dataframes with indicator series
+```
+
+
+# Investigating #
+
+## Extracting the data ##
+
+```{r, eval = F, echo=TRUE}
+wdi_index  <- WDIcache()$series %>% as.data.frame() # full list
+UDB <- as.character(unique(wdi_index$sourceDatabase)) # distinct databases (categories)
+```
+
+
+## Investigating individual databases ##
+```{r, eval = F, echo = TRUE}
+TUDB <- UDB[7] # check out a few databases
+wdi_index %>% 
+  filter(sourceDatabase == TUDB) %>% 
+  mutate(DB = TUDB) %>%
+  select(DB,indicator,name) %>%
+  distinct()
+```
+
+
+## Checking some details ##
+
+```{r, eval = F, echo = TRUE}
+wdi_index %>% 
+  filter(indicator=="SP.POP.6569.FE.5Y") %>% 
+  select(description)
+```
+
+```{r,eval=FALSE}
+wdi_index %>% 
+  filter(indicator %like% "2.0") %>%
+  select(indicator,name)
+```
+
+## Looking for keywords ##
+
+```{r, eval=F, echo=TRUE}
+# search specific fields
+#WDIsearch("migration",field="description")
+WDIsearch("SP.POP",field="indicator")
+```
+
+## Check the actual data ##
+
+```{r, eval=FALSE, echo = TRUE}
+WDI("RU","SP.POP.7074.FE.5Y",start="2000",end="2015")
+```
+
+
+# Final Dataset #
+
+Category        Indicator             Label
+---------       ---------             -----------
+Population	    SP.POP.TOTL.MA.IN     Population, male
+Population	    SP.POP.0004.MA.5Y     Population ages 0-4, male (% of male population)  
+Population	    SP.POP.0509.MA.5Y     Population ages 5-9, male (% of male population)   
+Population	    SP.POP.1014.MA.5Y     Population ages10-14, male (% of male population)   
+Population	    SP.POP.1519.MA.5Y     Population ages 15-19, male (% of male population) 
+Population	    SP.POP.2024.MA.5Y     Population ages 20-24, male (% of male population) 
+Population	    SP.POP.2529.MA.5Y     Population ages 25-29, male (% of male population)
+Population	    SP.POP.3034.MA.5Y     Population ages 30-34, male (% of male population) 
+Population	    SP.POP.3539.MA.5Y     Population ages 35-39, male (% of male population)  
+Population	    SP.POP.4044.MA.5Y     Population ages 40-44, male (% of male population)
+Population	    SP.POP.4549.MA.5Y     Population ages 45-49, male (% of male population)
+Population	    SP.POP.5054.MA.5Y     Population ages 50-54, male (% of male population)
+Population	    SP.POP.5559.MA.5Y     Population ages 55-59, male (% of male population)
+Population	    SP.POP.6064.MA.5Y     Population ages 60-64, male (% of male population)
+Population	    SP.POP.6569.MA.5Y     Population ages 65-69, male (% of male population)   
+Population	    SP.POP.7074.MA.5Y     Population ages 70-74, male (% of male population) 
+Population	    SP.POP.7579.MA.5Y     Population ages 75-79, male (% of male population)
+Population	    SP.POP.80UP.MA.5Y     Population ages 80 and above, male (% of male population) 
+Population	    SP.POP.TOTL.FE.IN     Population, female 
+Population	    SP.POP.0004.FE.5Y     Population ages 0-4, female (% of female population)  
+Population	    SP.POP.0509.FE.5Y     Population ages 5-9, female (% of female population) 
+Population	    SP.POP.1014.FE.5Y     Population ages 10-14, female (% of female population)  
+Population	    SP.POP.1519.FE.5Y     Population ages 15-19, female (% of female population)  
+Population	    SP.POP.2024.FE.5Y     Population ages 20-24, female (% of female population) 
+Population	    SP.POP.2529.FE.5Y     Population ages 25-29, female (% of female population)   
+Population	    SP.POP.3034.FE.5Y     Population ages 30-34, female (% of female population) 
+Population	    SP.POP.3539.FE.5Y     Population ages 35-39, female (% of female population)
+Population	    SP.POP.4044.FE.5Y     Population ages 40-44, female (% of female population)
+Population	    SP.POP.4549.FE.5Y     Population ages 45-49, female (% of female population)
+Population	    SP.POP.5054.FE.5Y     Population ages 50-54, female (% of female population)
+Population	    SP.POP.5559.FE.5Y     Population ages 55-59, female (% of female population) 
+Population	    SP.POP.6064.FE.5Y     Population ages 60-64, female (% of female population)
+Population	    SP.POP.6569.FE.5Y	    Population ages 65-69, female (% of female population)
+Population	    SP.POP.7074.FE.5Y     Population ages 70-74, female (% of female population)
+Population	    SP.POP.7579.FE.5Y     Population ages 75-79, female (% of female population) 
+Population	    SP.POP.80UP.FE.5Y     Population ages 80 and above, female (% of female population)
+Population      SP.DYN.CBRT.IN        Birth rate, crude (per 1,000 people)
+Population      SP.DYN.LE00.IN        Life expectancy at birth, total (years)
+Population      SP.RUR.TOTL.ZS        Rural population (% of total population)
+Population      SM.POP.NETM           Net migration
+Health          SH.XPD.PRIV.ZS        Health expenditure, private (% of GDP)
+Health          SH.XPD.PUBL.ZS        Health expenditure, public (% of GDP)
+Health          SH.DYN.NMRT           Mortality rate, neonatal (per 1,000 live births)
+Health          SH.DTH.INJR.ZS        Cause of death, by injury (% of total)
+Health          SH.DTH.NCOM.ZS        Cause of death, by non-communicable diseases (% of total)
+Health          SH.DTH.COMM.ZS        Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)
+Health          SH.TBS.MORT           Tuberculosis death rate (per 100,000 people)
+Economy         NY.GDP.MKTP.CD        GDP (current US$)
+Economy         NY.GNP.PCAP.CD        GNI Atlas method (current US$)
+Economy         DT.DOD.DECT.GN.ZS     External debt stocks (% of GNI)
+Economy         GC.BAL.CASH.GD.ZS     Cash surplus/deficit (% of GDP)
+Economy         GC.TAX.YPKG.RV.ZS     Taxes on income, profits and capital gains (% of revenue)
+Economy         GC.TAX.GSRV.RV.ZS     Taxes on goods and services (% of revenue)
+Economy         BX.KLT.DINV.WD.GD.ZS  Foreign direct investment, net inflows (% of GDP)
+Economy         FR.INR.DPST           Deposit interest rate (%)
+Economy         FR.INR.LEND           Lending interest rate (%)
+Economy         SL.UEM.TOTL.ZS        Unemployment, total (% of total labor force)
+Economy         SL.EMP.SELF.ZS        Self-employed (% of employed)
+Ecenomy         MS.MIL.XPND.GD.ZS     Military expenditure as % of GDP
+Development     IT.CEL.SETS.P2        Mobile cellular subscription per 100 people
+Development     IT.NET.USER.P2        Internet users per 100 people
+Development     IT.NET.BBND.P2       Fixed broadband Internet subscribers (per 100 people)
+Development     EG.ELC.ACCS.ZS        Access to electricity (% of population)
+Development     SE.TER.GRAD           Graduates, tertiary, total
+Development     ST.INT.ARVL           International tourism, number of arrivals
+Development     ST.INT.XPND.CD        International tourism, expenditures (current US$)
+Development     SE.ADT.LITR.ZS        Literacy rate, adult total (% of people ages 15 and above)
+Development     EN.ATM.CO2E.PC        CO2 emissions (metric tons per capita)
+Development     AG.LND.FRST.K2        Forest area (sq. km)
+Development     AG.LND.FRST.ZS        Forest area (% of land area)
+Development     SI.POV.GINI           GINI index
+Development     IP.JRN.ARTC.SC        Scientific and technical journal articles
+Development     CC.EST                Control of Corruption Index
+Development     PV.EST                Political Stability and Absence of Violence/Terrorism: Estimate
+Development     VC.IHR.PSRC.P5        Intentional homicides (per 100,000 people)
+---------       ---------             -----------
+

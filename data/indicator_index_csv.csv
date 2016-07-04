@@ -1,0 +1,54 @@
+category,label,indicator,description
+Health,health_expend_priv_pogdp,SH.XPD.PRIV.ZS,"Health expenditure, private (% of GDP)"
+Health,health_expend_publ_pogdp,SH.XPD.PUBL.ZS,"Health expenditure, public (% of GDP)"
+Health,mort_neo_p1000,SH.DYN.NMRT,"Mortality rate, neonatal (per 1,000 live births)"
+Economy,gdp_value,NY.GDP.MKTP.CD,GDP at market prices (current US$)
+Economy,gni_per_capita,NY.GNP.PCAP.CD,"GNI per capita, Atlas method (current US$)"
+Economy,external_ds_pgni,DT.DOD.DECT.GN.ZS,External debt stocks (% of GNI)
+Economy,cash_surp_def_pc,GC.BAL.CASH.GD.ZS,Cash surplus/deficit (% of GDP)
+Economy,tax_inc_prof_cap_apor,GC.TAX.YPKG.RV.ZS,"Taxes on income, profits and capital gains (% of revenue)"
+Economy,tax_on_goods_apor,GC.TAX.GSRV.RV.ZS,Taxes on goods and services (% of revenue)
+Economy,foregin_d_invest_ni,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)"
+Economy,deposit_interest_rate,FR.INR.DPST,Deposit interest rate (%)
+Economy,lending_interest_rate,FR.INR.LEND,Lending interest rate (%)
+Economy,unemploy_total_apol,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force)"
+Economy,self_employ_apoe,SL.EMP.SELF.ZS,"Self-employed, total (% of total employed)"
+Economy,military_exp_gdp,MS.MIL.XPND.GD.ZS,Military expenditure (% of GDP)
+Economy,bank_cap_to_asset_r,FB.BNK.CAPA.ZS,Bank capital to assets ratio (%)
+Economy,govt_dbt_pgdp,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)"
+Development,mob_subscription_p,IT.CEL.SETS.P2,Mobile cellular subscriptions (per 100 people)
+Development,internet_users_p,IT.NET.USER.P2,Internet users (per 100 people)
+Development,internet_subscr_p,IT.NET.BBND.P2,Fixed broadband subscriptions (per 100 people)
+Development,tourism_arrivals,ST.INT.ARVL,"International tourism, number of arrivals"
+Development,tourism_expend,ST.INT.XPND.CD,"International tourism, expenditures (current US$)"
+Development,gini_index,SI.POV.GINI,GINI index (World Bank estimate)
+Development,sci_tech_pub,IP.JRN.ARTC.SC,Scientific and technical journal articles
+Development,int_homicide_per100k,VC.IHR.PSRC.P5,"Intentional homicides (per 100,000 people)"
+Development,military_prop,MS.MIL.TOTL.TF.ZS,Armed forces personnel (% of total labor force)
+Environment,forest_area_sqkm,AG.LND.FRST.K2,Forest area (sq. km)
+Environment,forest_area_p,AG.LND.FRST.ZS,Forest area (% of land area)
+Environment,co2_emissions_mt_pc,EN.ATM.CO2E.PC,CO2 emissions (metric tons per capita)
+TEMP,birth_rate_p1000,SP.DYN.CBRT.IN,"Birth rate, crude (per 1,000 people)"
+TEMP,ip_charge,BM.GSR.ROYL.CD,"Charges for the use of intellectual property, payments (BoP, current US$)"
+TEMP,children_out_of_school,SE.PRM.UNER.ZS,Children out of school (% of primary school age)
+TEMP,employee_comp_poe,GC.XPN.COMP.ZS,Compensation of employees (% of expense)
+TEMP,cotracept_prev,SP.DYN.CONU.ZS,"Contraceptive prevalence, any methods (% of women ages 15-49)"
+TEMP,cpia_gender_equal,IQ.CPA.GNDR.XQ,CPIA gender equality rating (1=low to 6=high)
+TEMP,cpia_transparency,IQ.CPA.TRAN.XQ,"CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)"
+TEMP,death_rate_p1000,SP.DYN.CDRT.IN,"Death rate, crude (per 1,000 people)"
+TEMP,electicity_nuclear,EG.ELC.NUCL.ZS,Electricity production from nuclear sources (% of total)
+TEMP,electricity_renew,EG.ELC.RNWX.ZS,"Electricity production from renewable sources, excluding hydroelectric (% of total)"
+TEMP,employers_f,SL.EMP.MPYR.FE.ZS,"Employers, female (% of employment)"
+TEMP,employers_m,SL.EMP.MPYR.MA.ZS,"Employers, male (% of employment)"
+TEMP,fertility_rate_pw,SP.DYN.TFRT.IN,"Fertility rate, total (births per woman)"
+TEMP,income_held_by_h10,SI.DST.10TH.10,Income share held by highest 10%
+TEMP,life_expect,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)"
+TEMP,patent_app_nr,IP.PAT.NRES,"Patent applications, nonresidents"
+TEMP,patent_app_r,IP.PAT.RESD,"Patent applications, residents"
+TEMP,pop_total,SP.POP.TOTL,"Population, total"
+TEMP,hiv_prev_f,SH.HIV.1524.FE.ZS,"Prevalence of HIV, female (% ages 15-24)"
+TEMP,hiv_prev_m,SH.HIV.1524.MA.ZS,"Prevalence of HIV, male (% ages 15-24)"
+TEMP,pop_rural,SP.RUR.TOTL.ZS,Rural population (% of total population)
+TEMP,sp_gei,CM.MKT.INDX.ZG,S&P Global Equity Indices (annual % change)
+TEMP,unemployed,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force)"
+TEMP,pop_female,SP.POP.TOTL.FE.ZS,"Population, female (% of total)"

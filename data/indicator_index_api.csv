@@ -1,0 +1,96 @@
+category,indicator,label,description
+Population,SP.POP.TOTL,pop_total,"Population, total"
+Population,SP.POP.TOTL.FE.ZS,pop_female_pot,"Population, female (% of total)"
+Population,SP.RUR.TOTL.ZS,pop_rural_pot,Rural population (% of total population)
+Population,SP.POP.TOTL.MA.IN,pop_male,"Population, male"
+Population,SP.POP.0004.MA.5Y,pop_male_0_4,"Population ages 0-4, male (% of male population)  "
+Population,SP.POP.0509.MA.5Y,pop_male_5_9,"Population ages 5-9, male (% of male population)   "
+Population,SP.POP.1014.MA.5Y,pop_male_10_14,"Population ages10-14, male (% of male population)   "
+Population,SP.POP.1519.MA.5Y,pop_male_15_19,"Population ages 15-19, male (% of male population) "
+Population,SP.POP.2024.MA.5Y,pop_male_20_24,"Population ages 20-24, male (% of male population) "
+Population,SP.POP.2529.MA.5Y,pop_male_25_29,"Population ages 25-29, male (% of male population)"
+Population,SP.POP.3034.MA.5Y,pop_male_30_34,"Population ages 30-34, male (% of male population) "
+Population,SP.POP.3539.MA.5Y,pop_male_35_39,"Population ages 35-39, male (% of male population)  "
+Population,SP.POP.4044.MA.5Y,pop_male_40_44,"Population ages 40-44, male (% of male population)"
+Population,SP.POP.4549.MA.5Y,pop_male_45_49,"Population ages 45-49, male (% of male population)"
+Population,SP.POP.5054.MA.5Y,pop_male_50_54,"Population ages 50-54, male (% of male population)"
+Population,SP.POP.5559.MA.5Y,pop_male_55_59,"Population ages 55-59, male (% of male population)"
+Population,SP.POP.6064.MA.5Y,pop_male_60_64,"Population ages 60-64, male (% of male population)"
+Population,SP.POP.6569.MA.5Y,pop_male_65_69,"Population ages 65-69, male (% of male population)   "
+Population,SP.POP.7074.MA.5Y,pop_male_70_74,"Population ages 70-74, male (% of male population) "
+Population,SP.POP.7579.MA.5Y,pop_male_75_79,"Population ages 75-79, male (% of male population)"
+Population,SP.POP.80UP.MA.5Y,pop_male_80p,"Population ages 80 and above, male (% of male population) "
+Population,SP.POP.TOTL.FE.IN,pop_female,"Population, female "
+Population,SP.POP.0004.FE.5Y,pop_female_0_4,"Population ages 0-4, female (% of female population)  "
+Population,SP.POP.0509.FE.5Y,pop_female_5-9,"Population ages 5-9, female (% of female population) "
+Population,SP.POP.1014.FE.5Y,pop_female_10_14,"Population ages 10-14, female (% of female population)  "
+Population,SP.POP.1519.FE.5Y,pop_female_15_19,"Population ages 15-19, female (% of female population)  "
+Population,SP.POP.2024.FE.5Y,pop_female_20_24,"Population ages 20-24, female (% of female population) "
+Population,SP.POP.2529.FE.5Y,pop_female_25_29,"Population ages 25-29, female (% of female population)   "
+Population,SP.POP.3034.FE.5Y,pop_female_30_34,"Population ages 30-34, female (% of female population) "
+Population,SP.POP.3539.FE.5Y,pop_female_35_39,"Population ages 35-39, female (% of female population)"
+Population,SP.POP.4044.FE.5Y,pop_female_40_44,"Population ages 40-44, female (% of female population)"
+Population,SP.POP.4549.FE.5Y,pop_female_45_49,"Population ages 45-49, female (% of female population)"
+Population,SP.POP.5054.FE.5Y,pop_female_50_54,"Population ages 50-54, female (% of female population)"
+Population,SP.POP.5559.FE.5Y,pop_female_55_59,"Population ages 55-59, female (% of female population) "
+Population,SP.POP.6064.FE.5Y,pop_female_60_64,"Population ages 60-64, female (% of female population)"
+Population,SP.POP.6569.FE.5Y,pop_female_65_69,"Population ages 65-69, female (% of female population)"
+Population,SP.POP.7074.FE.5Y,pop_female_70_74,"Population ages 70-74, female (% of female population)"
+Population,SP.POP.7579.FE.5Y,pop_female_75_79,"Population ages 75-79, female (% of female population) "
+Population,SP.POP.80UP.FE.5Y,pop_female_80p,"Population ages 80 and above, female (% of female population)"
+Population,SP.DYN.CBRT.IN,birth_rate_p1000,"Birth rate, crude (per 1,000 people)"
+Population,SP.DYN.LE00.IN,life_expect,"Life expectancy at birth, total (years)"
+Population,SM.POP.NETM,net_migrat,Net migration
+Health,SH.XPD.PRIV.ZS,health_expend_priv_pogdp,"Health expenditure, private (% of GDP)"
+Health,SH.XPD.PUBL.ZS,health_expend_publ_pogdp,"Health expenditure, public (% of GDP)"
+Health,SH.DYN.NMRT,mort_neo_p1000,"Mortality rate, neonatal (per 1,000 live births)"
+Health,SH.DTH.INJR.ZS,death_injury_p,"Cause of death, by injury (% of total)"
+Health,SH.DTH.NCOM.ZS,dealth_noncom_p,"Cause of death, by non-communicable diseases (% of total)"
+Health,SH.DTH.COMM.ZS,death_com_p,"Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total)"
+Health,SH.TBS.MORT,tuber_drp1000,"Tuberculosis death rate (per 100,000 people)"
+Economy,NY.GDP.MKTP.CD,gdp_value,GDP (current US$)
+Economy,NY.GNP.PCAP.CD,gni_per_capita,GNI Atlas method (current US$)
+Economy,DT.DOD.DECT.GN.ZS,external_ds_pgni,External debt stocks (% of GNI)
+Economy,GC.BAL.CASH.GD.ZS,cash_surp_def_pc,Cash surplus/deficit (% of GDP)
+Economy,GC.TAX.YPKG.RV.ZS,tax_inc_prof_cap_apor,"Taxes on income, profits and capital gains (% of revenue)"
+Economy,GC.TAX.GSRV.RV.ZS,tax_on_goods_apor,Taxes on goods and services (% of revenue)
+Economy,BX.KLT.DINV.WD.GD.ZS,foregin_d_invest_ni,"Foreign direct investment, net inflows (% of GDP)"
+Economy,FR.INR.DPST,deposit_interest_rate,Deposit interest rate (%)
+Economy,FR.INR.LEND,lending_interest_rate,Lending interest rate (%)
+Economy,SL.UEM.TOTL.ZS,unemploy_total_apol,"Unemployment, total (% of total labor force)"
+Economy,SL.EMP.SELF.ZS,self_employ_apoe,Self-employed (% of employed)
+Economy,MS.MIL.XPND.GD.ZS,military_exp_gdp,Military expenditure as % of GDP
+Economy,FB.BNK.CAPA.ZS,bank_cap_to_asset_r,Bank capital to assets ratio (%)
+Economy,GC.DOD.TOTL.GD.ZS,govt_dbt_pgdp,"Central government debt, total (% of GDP)"
+Development,IT.CEL.SETS.P2,mob_subscription_p,Mobile cellular subscription per 100 people
+Development,IT.NET.USER.P2,internet_users_p,Internet users per 100 people
+Development,IT.NET.BBND.P2,internet_subscr_p,Fixed broadband Internet subscribers (per 100 people)
+Development,ST.INT.ARVL,tourism_arrivals,"International tourism, number of arrivals"
+Development,ST.INT.XPND.CD,tourism_expend,"International tourism, expenditures (current US$)"
+Development,EN.ATM.CO2E.PC,co2_emissions_mt_pc,CO2 emissions (metric tons per capita)
+Development,AG.LND.FRST.K2,forest_area_sqkm,Forest area (sq. km)
+Development,AG.LND.FRST.ZS,forest_area_p,Forest area (% of land area)
+Development,SI.POV.GINI,gini_index,GINI Index
+Development,IP.JRN.ARTC.SC,sci_tech_pub,Scientific and technical journal articles
+Development,CC.EST,corrupt_control,Control of Corruption Index
+Development,PV.EST,political_stability,Political Stability and Absence of Violence/Terrorism: Estimate
+Development,VC.IHR.PSRC.P5,int_homicide_per100k,"Intentional homicides (per 100,000 people)"
+Development,MS.MIL.TOTL.TF.ZS,military_prop,Armed forces personnel (% of total labor force)
+Economy,BM.GSR.ROYL.CD,ip_charge,"Charges for the use of intellectual property, payments (BoP, current US$)"
+Development,CM.MKT.INDX.ZG,sp_gei,S&P Global Equity Indices (annual % change)
+Development,SE.PRM.UNER.ZS,children_out_of_school,Children out of school (% of primary school age)
+Economy,GC.XPN.COMP.ZS,employee_comp_poe,Compensation of employees (% of expense)
+Development,SP.DYN.CONU.ZS,cotracept_prev,"Contraceptive prevalence, any methods (% of women ages 15-49)"
+Development,IQ.CPA.GNDR.XQ,cpia_gender_equal,CPIA gender equality rating (1=low to 6=high)
+Development,IQ.CPA.TRAN.XQ,cpia_transparency,"CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)"
+Population,SP.DYN.CDRT.IN,death_rate_p1000,"Death rate, crude (per 1,000 people)"
+Development,EG.ELC.NUCL.ZS,electicity_nuclear,Electricity production from nuclear sources (% of total)
+Development,EG.ELC.RNWX.ZS,electricity_renew,"Electricity production from renewable sources, excluding hydroelectric (% of total)"
+Development,SL.EMP.MPYR.FE.ZS,employers_f,"Employers, female (% of employment)"
+Development,SL.EMP.MPYR.MA.ZS,employers_m,"Employers, male (% of employment)"
+Population,SP.DYN.TFRT.IN,fertility_rate_pw,"Fertility rate, total (births per woman)"
+Economy,SI.DST.10TH.10,income_held_by_h10,Income share held by highest 10%
+Economy,IP.PAT.NRES,patent_app_nr,"Patent applications, nonresidents"
+Economy,IP.PAT.RESD,patent_app_r,"Patent applications, residents"
+Health,SH.HIV.1524.FE.ZS,hiv_prev_f,"Prevalence of HIV, female (% ages 15-24)"
+Health,SH.HIV.1524.MA.ZS,hiv_prev_m,"Prevalence of HIV, male (% ages 15-24)"

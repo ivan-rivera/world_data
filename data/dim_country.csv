@@ -1,0 +1,266 @@
+country,iso3c,iso2c,capital,longitude,latitude,income,lending,region,subregion,GDP,Population,non_country
+Africa,NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"Jersey, Channel Islands",JEY,,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+North Africa,NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+Sub-Saharan Africa excluding South Africa,NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+Sub-Saharan Africa excluding South Africa and Nigeria,NA,,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+Arab World,ARB,1A,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+World,WLD,1W,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+East Asia & Pacific (developing only),EAP,4E,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Europe & Central Asia (developing only),ECA,7E,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+South Asia,SAS,8S,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Andorra,AND,AD,Andorra la Vella,1.5218,42.5075,High income: nonOECD,Not classified,Europe,Southern Europe,3249100675,70000,0
+United Arab Emirates,ARE,AE,Abu Dhabi,54.3705,24.4764,High income: nonOECD,Not classified,Asia,Western Asia,3.99451E+11,9157000,0
+Afghanistan,AFG,AF,Kabul,69.1761,34.5228,Low income,IDA,Asia,Southern Asia,20038215159,32527000,0
+Antigua and Barbuda,ATG,AG,Saint John's,-61.8456,17.1175,Upper middle income,IBRD,Americas,Caribbean,1220976011,92000,0
+Anguilla,AIA,AI,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Albania,ALB,AL,Tirane,19.8172,41.3317,Upper middle income,IBRD,Europe,Southern Europe,13211513726,2901000,0
+Armenia,ARM,AM,Yerevan,44.509,40.1596,Lower middle income,Blend,Asia,Western Asia,11644438423,3018000,0
+Netherlands Antilles,ANT,AN,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Angola,AGO,AO,Luanda,13.242,-8.81155,Lower middle income,IDA,Africa,Middle Africa,1.38357E+11,25022000,0
+Argentina,ARG,AR,Buenos Aires,-58.4173,-34.6118,Upper middle income,IBRD,Americas,South America,5.3766E+11,43417000,0
+American Samoa,ASM,AS,Pago Pago,-170.691,-14.2846,Upper middle income,Not classified,Oceania,Polynesia,1428607226,56000,0
+Austria,AUT,AT,Vienna,16.3798,48.2201,High income: OECD,Not classified,Europe,Western Europe,4.36888E+11,8570000,0
+Australia,AUS,AU,Canberra,149.129,-35.282,High income: OECD,Not classified,Oceania,Australia and New Zealand,1.45468E+12,23802000,0
+Aruba,ABW,AW,Oranjestad,-70.0167,12.5167,High income: nonOECD,Not classified,Americas,Caribbean,2584463687,104000,0
+Azerbaijan,AZE,AZ,Baku,49.8932,40.3834,Upper middle income,IBRD,Asia,Western Asia,75198010965,9651000,0
+Central Europe and the Baltics,NA,B8,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+Bosnia and Herzegovina,BIH,BA,Sarajevo,18.4214,43.8607,Upper middle income,Blend,Europe,Southern Europe,18521475376,3810000,0
+Barbados,BRB,BB,Bridgetown,-59.6105,13.0935,High income: nonOECD,Not classified,Americas,Caribbean,4354500000,284000,0
+Bangladesh,BGD,BD,Dhaka,90.4113,23.7055,Low income,IDA,Asia,Southern Asia,1.72887E+11,160996000,0
+Belgium,BEL,BE,Brussels,4.36761,50.8371,High income: OECD,Not classified,Europe,Western Europe,5.31547E+11,11301000,0
+Burkina Faso,BFA,BF,Ouagadougou,-1.53395,12.3605,Low income,IDA,Africa,Western Africa,12542221942,18106000,0
+Bulgaria,BGR,BG,Sofia,23.3238,42.7105,Upper middle income,IBRD,Europe,Eastern Europe,56717054674,7171000,0
+Bahrain,BHR,BH,Manama,50.5354,26.1921,High income: nonOECD,Not classified,Asia,Western Asia,33851063830,1377000,0
+Burundi,BDI,BI,Bujumbura,29.3639,-3.3784,Low income,IDA,Africa,Eastern Africa,3093647227,11179000,0
+Benin,BEN,BJ,Porto-Novo,2.6323,6.4779,Low income,IDA,Africa,Western Africa,9575356735,10880000,0
+Bermuda,BMU,BM,Hamilton,-64.706,32.3293,High income: nonOECD,Not classified,Americas,Northern America,5573710000,65181,0
+Brunei Darussalam,BRN,BN,Bandar Seri Begawan,114.946,4.94199,High income: nonOECD,Not classified,Asia,South-Eastern Asia,17104656669,423000,0
+Bolivia,BOL,BO,La Paz,-66.1936,-13.9908,Lower middle income,Blend,Americas,South America,32996187988,10725000,0
+Brazil,BRA,BR,Brasilia,-47.9292,-15.7801,Upper middle income,IBRD,Americas,South America,2.41664E+12,207848000,0
+"Bahamas, The",BHS,BS,Nassau,-77.339,25.0661,High income: nonOECD,Not classified,Americas,Caribbean,8510500000,388000,0
+Bhutan,BTN,BT,Thimphu,89.6177,27.5768,Lower middle income,IDA,Asia,Southern Asia,1958803867,775000,0
+Botswana,BWA,BW,Gaborone,25.9201,-24.6544,Upper middle income,IBRD,Africa,Southern Africa,15813364345,2262000,0
+Belarus,BLR,BY,Minsk,27.5766,53.9678,Upper middle income,IBRD,Europe,Eastern Europe,76139250365,9448000,0
+Belize,BLZ,BZ,Belmopan,-88.7713,17.2534,Lower middle income,IBRD,Americas,Central America,1699154132,359000,0
+Canada,CAN,CA,Ottawa,-75.6919,45.4215,High income: OECD,Not classified,Americas,Northern America,1.78539E+12,35883000,0
+"Congo, Dem. Rep.",COD,CD,Kinshasa,15.3222,-4.325,Low income,IDA,Africa,Middle Africa,33121070959,77267000,0
+Central African Republic,CAF,CF,Bangui,21.6407,5.63056,Low income,IDA,Africa,Middle Africa,1722529061,4900000,0
+"Congo, Rep.",COG,CG,Brazzaville,15.2662,-4.2767,Lower middle income,IDA,Africa,Middle Africa,14177440495,4620000,0
+Switzerland,CHE,CH,Bern,7.44821,46.948,High income: OECD,Not classified,Europe,Western Europe,7.01037E+11,8265000,0
+Cote d'Ivoire,CIV,CI,Yamoussoukro,-4.0305,5.332,Lower middle income,IDA,Africa,Western Africa,34253607832,22702000,0
+Cook Islands,COK,CK,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Chile,CHL,CL,Santiago,-70.6475,-33.475,Upper middle income,IBRD,Americas,South America,2.58062E+11,17948000,0
+Cameroon,CMR,CM,Yaounde,11.5174,3.8721,Lower middle income,IDA,Africa,Middle Africa,32050817633,23344000,0
+China,CHN,CN,Beijing,116.286,40.0495,Upper middle income,IBRD,Asia,Eastern Asia,1.03548E+13,1370840000,0
+Colombia,COL,CO,Bogota,-74.082,4.60987,Upper middle income,IBRD,Americas,South America,3.7774E+11,48229000,0
+Costa Rica,CRI,CR,San Jose,-84.0089,9.63701,Upper middle income,IBRD,Americas,Central America,49552580683,4808000,0
+Cuba,CUB,CU,Havana,-82.3667,23.1333,Upper middle income,Not classified,Americas,Caribbean,77149700000,11390000,0
+Cabo Verde,CPV,CV,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Cape Verde,CPV,CV,Praia,-23.5087,14.9218,Lower middle income,Blend,Africa,Western Africa,48285796055,23513400,0
+Curacao,CUW,CW,Willemstad,NA,NA,High income: nonOECD,Not classified,NA,NA,NA,NA,0
+Cyprus,CYP,CY,Nicosia,33.3736,35.1676,High income: nonOECD,Not classified,Europe,Eastern Europe,23226158986,1165000,0
+Czech Republic,CZE,CZ,Prague,14.4205,50.0878,High income: OECD,Not classified,Europe,Eastern Europe,2.0527E+11,10534000,0
+Germany,DEU,DE,Berlin,13.4115,52.5235,High income: OECD,Not classified,Europe,Western Europe,3.86829E+12,80930000,0
+Djibouti,DJI,DJ,Djibouti,43.1425,11.5806,Lower middle income,IDA,Africa,Eastern Africa,1589026158,888000,0
+Denmark,DNK,DK,Copenhagen,12.5681,55.6763,High income: OECD,Not classified,Europe,Northern Europe,3.42362E+11,5660000,0
+Dominica,DMA,DM,Roseau,-61.39,15.2976,Upper middle income,Blend,Americas,Caribbean,524074074.1,73000,0
+Dominican Republic,DOM,DO,Santo Domingo,-69.8908,18.479,Upper middle income,IBRD,Americas,Caribbean,64137819040,10528000,0
+Algeria,DZA,DZ,Algiers,3.05097,36.7397,Upper middle income,IBRD,Africa,Northern Africa,2.13518E+11,39667000,0
+Ecuador,ECU,EC,Quito,-78.5243,-0.229498,Upper middle income,IBRD,Americas,South America,1.00917E+11,16144000,0
+Estonia,EST,EE,Tallinn,24.7586,59.4392,High income: OECD,Not classified,Europe,Northern Europe,26485161116,1311000,0
+"Egypt, Arab Rep.",EGY,EG,Cairo,31.2461,30.0982,Lower middle income,IBRD,Africa,Northern Africa,3.01499E+11,91508000,0
+Eritrea,ERI,ER,Asmara,38.9183,15.3315,Low income,IDA,Africa,Eastern Africa,2607739837,5228000,0
+Spain,ESP,ES,Madrid,-3.70327,40.4167,High income: OECD,Not classified,Europe,Southern Europe,1.38134E+12,46460000,0
+Ethiopia,ETH,ET,Addis ababa,38.7468,9.02274,Low income,IDA,Africa,Eastern Africa,55612228234,99391000,0
+European Union,EUU,EU,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Fragile and conflict affected situations,NA,F1,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+Finland,FIN,FI,Helsinki,24.9525,60.1608,High income: OECD,Not classified,Europe,Northern Europe,2.72217E+11,5480000,0
+Fiji,FJI,FJ,Suva,178.399,-18.1149,Lower middle income,IBRD,Oceania,Melanesia,4531817941,892000,0
+"Micronesia, Fed. Sts.",FSM,FM,Palikir,158.185,6.91771,Lower middle income,IDA,Oceania,Micronesia,318071978.6,104000,0
+Faeroe Islands,FRO,FO,Torshavn,-6.91181,61.8926,High income: nonOECD,Not classified,Europe,Northern Europe,4.59311E+11,9303181.818,0
+Faroe Islands,FRO,FO,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+France,FRA,FR,Paris,2.35097,48.8566,High income: OECD,Not classified,Europe,Western Europe,2.82919E+12,66477000,0
+Gabon,GAB,GA,Libreville,9.45162,0.38832,Upper middle income,IBRD,Africa,Middle Africa,18179717776,1725000,0
+United Kingdom,GBR,GB,London,-0.126236,51.5002,High income: OECD,Not classified,Europe,Northern Europe,2.98889E+12,64955000,0
+Grenada,GRD,GD,Saint George's,-61.7449,12.0653,Upper middle income,Blend,Americas,Caribbean,911803790.4,107000,0
+Georgia,GEO,GE,Tbilisi,44.793,41.71,Lower middle income,Blend,Asia,Western Asia,16529963187,3716000,0
+French Guiana,GUF,GF,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Ghana,GHA,GH,Accra,-0.20795,5.57045,Lower middle income,IDA,Africa,Western Africa,38616536132,27410000,0
+Greenland,GRL,GL,Nuuk,-51.7214,64.1836,High income: nonOECD,Not classified,Americas,Northern America,2441226080,56295,0
+"Gambia, The",GMB,GM,Banjul,-16.5885,13.4495,Low income,IDA,Africa,Western Africa,850902397.3,1991000,0
+Guinea,GIN,GN,Conakry,-13.7,9.51667,Low income,IDA,Africa,Western Africa,6624068016,12609000,0
+Equatorial Guinea,GNQ,GQ,Malabo,8.7741,3.7523,High income: nonOECD,IBRD,Africa,Middle Africa,15529729677,845000,0
+Greece,GRC,GR,Athens,23.7166,37.9792,High income: OECD,Not classified,Europe,Southern Europe,2.35574E+11,10840000,0
+Guatemala,GTM,GT,Guatemala City,-90.5328,14.6248,Lower middle income,IBRD,Americas,Central America,58827085047,16343000,0
+Guam,GUM,GU,Agana,144.794,13.4443,High income: nonOECD,Not classified,Oceania,Micronesia,230542743.2,170000,0
+Guinea-Bissau,GNB,GW,Bissau,-15.1804,11.8037,Low income,IDA,Africa,Western Africa,1022371992,1844000,0
+Guyana,GUY,GY,Georgetown,-58.1548,6.80461,Lower middle income,IDA,Americas,South America,3096747287,767000,0
+"Hong Kong SAR, China",HKG,HK,,114.109,22.3964,High income: nonOECD,Not classified,Asia,Eastern Asia,2.90896E+11,7297000,0
+Honduras,HND,HN,Tegucigalpa,-87.4667,15.1333,Lower middle income,IDA,Americas,Central America,19385314718,8075000,0
+Croatia,HRV,HR,Zagreb,15.9614,45.8069,High income: nonOECD,IBRD,Europe,Southern Europe,57113389357,4223000,0
+Haiti,HTI,HT,Port-au-Prince,-72.3288,18.5392,Low income,IDA,Americas,Caribbean,8713041023,10711000,0
+Hungary,HUN,HU,Budapest,19.0408,47.4984,High income: OECD,Not classified,Europe,Eastern Europe,1.38347E+11,9831000,0
+Indonesia,IDN,ID,Jakarta,106.83,-6.19752,Lower middle income,IBRD,Asia,South-Eastern Asia,8.88538E+11,257564000,0
+Ireland,IRL,IE,Dublin,-6.26749,53.3441,High income: OECD,Not classified,Europe,Northern Europe,2.50814E+11,4649000,0
+Israel,ISR,IL,,35.2035,31.7717,High income: OECD,Not classified,Asia,Western Asia,3.05675E+11,8350000,0
+Isle of Man,IMN,IM,Douglas,-4.47928,54.1509,High income: nonOECD,Not classified,Europe,Northern Europe,4062367148,88000,0
+India,IND,IN,New Delhi,77.225,28.6353,Lower middle income,Blend,Asia,Southern Asia,2.04852E+12,1311051000,0
+Iraq,IRQ,IQ,Baghdad,44.394,33.3302,Lower middle income,IBRD,Asia,Western Asia,2.24E+11,35870000,0
+"Iran, Islamic Rep.",IRN,IR,Tehran,51.4447,35.6878,Upper middle income,IBRD,Asia,Southern Asia,4.25326E+11,79109000,0
+Iceland,ISL,IS,Reykjavik,-21.8952,64.1353,High income: OECD,Not classified,Europe,Northern Europe,17036097482,330000,0
+Italy,ITA,IT,Rome,12.4823,41.8955,High income: OECD,Not classified,Europe,Southern Europe,2.14116E+12,60772000,0
+Channel Islands,CHI,JG,,NA,NA,High income: nonOECD,Not classified,NA,NA,NA,NA,0
+Jamaica,JAM,JM,Kingston,-76.792,17.9927,Upper middle income,IBRD,Americas,Caribbean,13891359468,2730000,0
+Jordan,JOR,JO,Amman,35.9263,31.9497,Upper middle income,IBRD,Asia,Western Asia,35826925775,6738000,0
+Japan,JPN,JP,Tokyo,139.77,35.67,High income: OECD,Not classified,Asia,Eastern Asia,4.60146E+12,126820000,0
+Kenya,KEN,KE,Nairobi,36.8126,-1.27975,Low income,IDA,Africa,Eastern Africa,60936509778,46050000,0
+Kyrgyz Republic,KGZ,KG,Bishkek,74.6057,42.8851,Low income,IDA,Asia,Central Asia,7404412710,5930000,0
+Cambodia,KHM,KH,Phnom Penh,104.874,11.5556,Low income,IDA,Asia,South-Eastern Asia,16777820333,15578000,0
+Kiribati,KIR,KI,Tarawa,172.979,1.32905,Lower middle income,IDA,Oceania,Micronesia,166756805.5,112000,0
+Comoros,COM,KM,Moroni,43.2418,-11.6986,Low income,IDA,Africa,Eastern Africa,623751049.7,788000,0
+St. Kitts and Nevis,KNA,KN,Basseterre,-62.7309,17.3,Upper middle income,IBRD,Americas,Caribbean,852203083.9,56000,0
+"Korea, Dem. Peoples Rep.",PRK,KP,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"Korea, Dem. Rep.",PRK,KP,Pyongyang,125.754,39.0319,Low income,Not classified,Asia,Eastern Asia,2.78751E+12,259856166.7,0
+"Korea, Rep.",KOR,KR,Seoul,126.957,37.5323,High income: OECD,IBRD,Asia,Eastern Asia,1.41038E+12,50633000,0
+Kuwait,KWT,KW,Kuwait City,47.9824,29.3721,High income: nonOECD,Not classified,Asia,Western Asia,1.63612E+11,3892000,0
+Cayman Islands,CYM,KY,George Town,-81.3857,19.3022,High income: nonOECD,Not classified,Americas,Caribbean,3207032513,60000,0
+Kazakhstan,KAZ,KZ,Astana,71.4382,51.1879,Upper middle income,IBRD,Asia,Central Asia,2.17872E+11,17506000,0
+Lao PDR,LAO,LA,Vientiane,102.177,18.5826,Lower middle income,IDA,Asia,South-Eastern Asia,11997062177,6802000,0
+Lebanon,LBN,LB,Beirut,35.5134,33.8872,Upper middle income,IBRD,Asia,Western Asia,45730945274,4648000,0
+St. Lucia,LCA,LC,Castries,-60.9832,14,Upper middle income,Blend,Americas,Caribbean,1404430564,185000,0
+Liechtenstein,LIE,LI,Vaduz,9.52148,47.1411,High income: nonOECD,Not classified,Europe,Western Europe,5487773452,38000,0
+Sri Lanka,LKA,LK,Colombo,79.8528,6.92148,Lower middle income,Blend,Asia,Southern Asia,78823610057,20876000,0
+Liberia,LBR,LR,Monrovia,-10.7957,6.30039,Low income,IDA,Africa,Western Africa,2.01E+09,4503000,0
+Lesotho,LSO,LS,Maseru,27.7167,-29.5208,Lower middle income,IDA,Africa,Southern Africa,2181300506,2135000,0
+Lithuania,LTU,LT,Vilnius,25.2799,54.6896,Upper middle income,Not classified,Europe,Northern Europe,48353937110,2915000,0
+Luxembourg,LUX,LU,Luxembourg,6.1296,49.61,High income: OECD,Not classified,Europe,Western Europe,64873963098,565000,0
+Latvia,LVA,LV,Riga,24.1048,56.9465,Upper middle income,Not classified,Europe,Northern Europe,31286809075,1984000,0
+Libya,LBY,LY,Tripoli,13.1072,32.8578,Upper middle income,IBRD,Africa,Northern Africa,41142722414,6278000,0
+Morocco,MAR,MA,Rabat,-6.8704,33.9905,Lower middle income,IBRD,Africa,Northern Africa,1.10009E+11,34378000,0
+Monaco,MCO,MC,Monaco,7.41891,43.7325,High income: nonOECD,Not classified,Europe,Western Europe,6074884389,38000,0
+Moldova,MDA,MD,Chisinau,28.8497,47.0167,Lower middle income,IDA,Europe,Eastern Europe,7962423552,3551000,0
+Montenegro,MNE,ME,Podgorica,19.2595,42.4602,Upper middle income,IBRD,Europe,Southern Europe,4587928884,622000,0
+St. Martin (French part),MAF,MF,Marigot,NA,NA,High income: nonOECD,Not classified,Americas,Caribbean,18953214935,31530,0
+Madagascar,MDG,MG,Antananarivo,45.7167,-20.4667,Low income,IDA,Africa,Eastern Africa,10593147381,24235000,0
+Marshall Islands,MHL,MH,Majuro,171.135,7.11046,Lower middle income,IDA,Oceania,Micronesia,186716625.8,53000,0
+"Macedonia, FYR",MKD,MK,Skopje,21.4361,42.0024,Upper middle income,IBRD,Europe,Southern Europe,11323769141,2078000,0
+Mali,MLI,ML,Bamako,-7.50034,13.5667,Low income,IDA,Africa,Western Africa,12037229619,17600000,0
+Myanmar,MMR,MM,Naypyidaw,95.9562,21.914,Low income,IDA,Asia,South-Eastern Asia,64330038665,53897000,0
+Mongolia,MNG,MN,Ulaanbaatar,106.937,47.9129,Lower middle income,IDA,Asia,Eastern Asia,12015944337,2959000,0
+"Macao SAR, China",MAC,MO,,113.55,22.1667,High income: nonOECD,Not classified,Asia,Eastern Asia,55501734046,588000,0
+Northern Mariana Islands,MNP,MP,Saipan,145.765,15.1935,High income: nonOECD,Not classified,Oceania,Micronesia,230542743.2,55000,0
+Martinique,MTQ,MQ,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Mauritania,MRT,MR,Nouakchott,-15.9824,18.2367,Lower middle income,IDA,Africa,Western Africa,5061180371,4068000,0
+Malta,MLT,MT,Valletta,14.5189,35.9042,High income: nonOECD,Not classified,Europe,Southern Europe,9642848650,428000,0
+Mauritius,MUS,MU,Port Louis,57.4977,-20.1605,Upper middle income,IBRD,Africa,Eastern Africa,12630332837,1265000,0
+Maldives,MDV,MV,Male,73.5109,4.1742,Upper middle income,IDA,Asia,Southern Asia,3061829145,408000,0
+Malawi,MWI,MW,Lilongwe,33.7703,-13.9899,Low income,IDA,Africa,Eastern Africa,4258033615,17215000,0
+Mexico,MEX,MX,Mexico City,-99.1276,19.427,Upper middle income,IBRD,Americas,Central America,1.29469E+12,127017000,0
+Malaysia,MYS,MY,Kuala Lumpur,101.684,3.12433,Upper middle income,IBRD,Asia,South-Eastern Asia,3.38104E+11,30331000,0
+Mozambique,MOZ,MZ,Maputo,32.5713,-25.9664,Low income,IDA,Africa,Eastern Africa,15938468563,27978000,0
+Namibia,NAM,NA,Windhoek,17.0931,-22.5648,Upper middle income,IBRD,Africa,Southern Africa,12995241138,2459000,0
+New Caledonia,NCL,NC,Noum'ea,166.464,-22.2677,High income: nonOECD,Not classified,Oceania,Melanesia,2682347064,269000,0
+Niger,NER,NE,Niamey,2.1073,13.514,Low income,IDA,Africa,Western Africa,8168695870,19899000,0
+Nigeria,NGA,NG,Abuja,7.48906,9.05804,Lower middle income,IDA,Africa,Western Africa,5.68508E+11,182202000,0
+Nicaragua,NIC,NI,Managua,-86.2734,12.1475,Lower middle income,IDA,Americas,Central America,11805641287,6082000,0
+Netherlands,NLD,NL,Amsterdam,4.89095,52.3738,High income: OECD,Not classified,Europe,Western Europe,8.79319E+11,16917000,0
+Norway,NOR,NO,Oslo,10.7387,59.9138,High income: OECD,Not classified,Europe,Northern Europe,4.99817E+11,5197000,0
+Nepal,NPL,NP,Kathmandu,85.3157,27.6939,Low income,IDA,Asia,Southern Asia,19769642123,28514000,0
+Nauru,NRU,NR,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Niue,NIU,NU,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+New Zealand,NZL,NZ,Wellington,174.776,-41.2865,High income: OECD,Not classified,Oceania,Australia and New Zealand,1.9997E+11,4548000,0
+OECD members,OED,OE,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Oman,OMN,OM,Muscat,58.5874,23.6105,High income: nonOECD,Not classified,Asia,Western Asia,81796618986,4491000,0
+Panama,PAN,PA,Panama City,-79.5188,8.99427,Upper middle income,IBRD,Americas,Central America,46212600000,3929000,0
+Peru,PER,PE,Lima,-77.0465,-12.0931,Upper middle income,IBRD,Americas,South America,2.02596E+11,31377000,0
+French Polynesia,PYF,PF,Papeete,-149.57,-17.535,High income: nonOECD,Not classified,Oceania,Polynesia,3447543138,283000,0
+Papua New Guinea,PNG,PG,Port Moresby,147.194,-9.47357,Lower middle income,Blend,Oceania,Melanesia,16928577232,7619000,0
+Philippines,PHL,PH,Manila,121.035,14.5515,Lower middle income,IBRD,Asia,South-Eastern Asia,2.84777E+11,100699000,0
+Pakistan,PAK,PK,Islamabad,72.8,30.5167,Lower middle income,Blend,Asia,Southern Asia,2.43632E+11,188925000,0
+Poland,POL,PL,Warsaw,21.02,52.26,High income: OECD,IBRD,Europe,Eastern Europe,5.44967E+11,37992000,0
+Puerto Rico,PRI,PR,San Juan,-66,18.23,High income: nonOECD,Not classified,Americas,Caribbean,1.03135E+11,3546000,0
+West Bank and Gaza,PSE,PS,,NA,NA,Lower middle income,Not classified,Asia,Western Asia,12737613125,4412000,0
+Portugal,PRT,PT,Lisbon,-9.13552,38.7072,High income: OECD,Not classified,Europe,Southern Europe,2.30117E+11,10358000,0
+Palau,PLW,PW,Koror,134.479,7.34194,Upper middle income,IBRD,Oceania,Micronesia,250625562.8,21000,0
+Paraguay,PRY,PY,Asuncion,-57.6362,-25.3005,Lower middle income,IBRD,Americas,South America,30880859580,6639000,0
+Qatar,QAT,QA,Doha,51.5082,25.2948,High income: nonOECD,Not classified,Asia,Western Asia,2.10109E+11,2235000,0
+Reunion,REU,RE,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Romania,ROU,RO,Bucharest,26.0979,44.4479,Upper middle income,IBRD,Europe,Eastern Europe,1.99044E+11,19765000,0
+Serbia,SRB,RS,Belgrade,20.4656,44.8024,Upper middle income,IBRD,Europe,Southern Europe,43866423167,7097000,0
+Russian Federation,RUS,RU,Moscow,37.6176,55.7558,Upper middle income,IBRD,Europe,Eastern Europe,1.8606E+12,143814000,0
+Rwanda,RWA,RW,Kigali,30.0587,-1.95325,Low income,IDA,Africa,Eastern Africa,7890190337,11610000,0
+Small states,SST,S1,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Pacific island small states,PSS,S2,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Caribbean small states,CSS,S3,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Other small states,OSS,S4,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Saudi Arabia,SAU,SA,Riyadh,46.6977,24.6748,High income: nonOECD,Not classified,Asia,Western Asia,7.53832E+11,31540000,0
+Solomon Islands,SLB,SB,Honiara,159.949,-9.42676,Lower middle income,IDA,Oceania,Melanesia,1158183054,584000,0
+Seychelles,SYC,SC,Victoria,55.4466,-4.6309,Upper middle income,IBRD,Africa,Eastern Africa,1422608276,92000,0
+Sudan,SDN,SD,Khartoum,32.5363,15.5932,Lower middle income,IDA,Africa,Northern Africa,73814947341,40235000,0
+Sweden,SWE,SE,Stockholm,18.0645,59.3327,High income: OECD,Not classified,Europe,Northern Europe,5.7109E+11,9766000,0
+Singapore,SGP,SG,Singapore,103.85,1.28941,High income: nonOECD,Not classified,Asia,South-Eastern Asia,3.0786E+11,5562000,0
+Slovenia,SVN,SI,Ljubljana,14.5044,46.0546,High income: OECD,Not classified,Europe,Southern Europe,49491440620,2064000,0
+Slovak Republic,SVK,SK,Bratislava,17.1073,48.1484,High income: OECD,Not classified,Europe,Eastern Europe,1.00249E+11,5423000,0
+Sierra Leone,SLE,SL,Freetown,-13.2134,8.4821,Low income,IDA,Africa,Western Africa,4837512587,6453000,0
+San Marino,SMR,SM,San Marino,12.4486,43.9322,High income: nonOECD,Not classified,Europe,Southern Europe,1899879955,32000,0
+Senegal,SEN,SN,Dakar,-17.4734,14.7247,Lower middle income,IDA,Africa,Western Africa,15657551477,15129000,0
+Somalia,SOM,SO,Mogadishu,45.3254,2.07515,Low income,IDA,Africa,Eastern Africa,5.71E+09,10787000,0
+Suriname,SUR,SR,Paramaribo,-55.1679,5.8232,Upper middle income,IBRD,Americas,South America,5210303030,543000,0
+South Sudan,SSD,SS,Juba,31.6,4.85,Not classified,Not classified,Africa,Middle Africa,13282084042,12340000,0
+Sao Tome and Principe,STP,ST,Sao Tome,6.6071,0.20618,Lower middle income,IDA,NA,NA,NA,NA,0
+El Salvador,SLV,SV,San Salvador,-89.2073,13.7034,Lower middle income,IBRD,Americas,Central America,25163700000,6127000,0
+Sint Maarten (Dutch part),SXM,SX,Philipsburg,NA,NA,High income: nonOECD,Not classified,Americas,Caribbean,18953214935,37685,0
+Syrian Arab Republic,SYR,SY,Damascus,36.3119,33.5146,Lower middle income,IBRD,Asia,Western Asia,40405006007,22351000,0
+Swaziland,SWZ,SZ,Mbabane,31.4659,-26.5225,Lower middle income,IBRD,Africa,Southern Africa,4412891830,1287000,0
+Turks and Caicos Islands,TCA,TC,Grand Turk,-71.141389,21.4602778,High income: nonOECD,Not classified,Americas,Caribbean,18953214935,34000,0
+Chad,TCD,TD,N'Djamena,15.0445,12.1048,Low income,IDA,Africa,Middle Africa,13922224561,14037000,0
+Togo,TGO,TG,Lome,1.2255,6.1228,Low income,IDA,Africa,Western Africa,4518443477,7305000,0
+Thailand,THA,TH,Bangkok,100.521,13.7308,Upper middle income,IBRD,Asia,South-Eastern Asia,4.04824E+11,67959000,0
+Tajikistan,TJK,TJ,Dushanbe,68.7864,38.5878,Low income,IDA,Asia,Central Asia,9241627841,8482000,0
+Timor-Leste,TLS,TL,Dili,125.567,-8.56667,Lower middle income,IDA,Asia,South-Eastern Asia,1.42E+09,1239000,0
+Turkmenistan,TKM,TM,Ashgabat,58.3794,37.9509,Lower middle income,IBRD,Asia,Central Asia,47931929825,5374000,0
+Tunisia,TUN,TN,Tunis,10.21,36.7899,Upper middle income,IBRD,Africa,Northern Africa,48612652412,11117000,0
+Tonga,TON,TO,Nuku'alofa,-175.216,-21.136,Lower middle income,IDA,NA,NA,NA,NA,0
+Turkey,TUR,TR,Ankara,32.3606,39.7153,Upper middle income,IBRD,Asia,Western Asia,7.98429E+11,76819000,0
+Trinidad and Tobago,TTO,TT,Port-of-Spain,-61.4789,10.6596,High income: nonOECD,IBRD,Americas,Caribbean,28882663254,1360000,0
+Tuvalu,TUV,TV,Funafuti,179.089567,-8.6314877,Lower middle income,IDA,Oceania,Polynesia,37859550.4,10000,0
+"Taiwan, China",TWN,TW,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Tanzania,TZA,TZ,Dodoma,35.7382,-6.17486,Low income,IDA,Africa,Eastern Africa,48056680982,53470000,0
+Ukraine,UKR,UA,Kiev,30.5038,50.4536,Lower middle income,IBRD,Europe,Eastern Europe,1.31805E+11,45157000,0
+Uganda,UGA,UG,Kampala,32.5729,0.314269,Low income,IDA,Africa,Eastern Africa,26998477289,39032000,0
+United States,USA,US,Washington D.C.,-77.032,38.8895,High income: OECD,Not classified,Americas,Northern America,1.74E+13,321191000,0
+Uruguay,URY,UY,Montevideo,-56.0675,-34.8941,Upper middle income,IBRD,Americas,South America,57471030095,3432000,0
+Uzbekistan,UZB,UZ,Tashkent,69.269,41.3052,Lower middle income,Blend,Asia,Central Asia,62643953022,31190000,0
+St. Vincent and the Grenadines,VCT,VC,Kingstown,-61.2653,13.2035,Upper middle income,Blend,Americas,Caribbean,729309384.4,109000,0
+"Venezuela, RB",VEN,VE,Caracas,-69.8371,9.08165,Upper middle income,IBRD,Americas,South America,3.81286E+11,31108000,0
+Virgin Islands (U.S.),VIR,VI,Charlotte Amalie,-64.8963,18.3358,High income: nonOECD,Not classified,Americas,Caribbean,2.00E+09,104000,0
+Vietnam,VNM,VN,Hanoi,105.825,21.0069,Lower middle income,Blend,Asia,South-Eastern Asia,1.86205E+11,91714000,0
+Vanuatu,VUT,VU,Port-Vila,168.321,-17.7404,Lower middle income,IDA,Oceania,Melanesia,814954307,265000,0
+Samoa,WSM,WS,Apia,-171.752,-13.8314,Lower middle income,IDA,Oceania,Polynesia,800418989.6,193000,0
+Euro area,EMU,XC,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+High income,HIC,XD,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Heavily indebted poor countries (HIPC),HPC,XE,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Latin America & Caribbean (developing only),LAC,XJ,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Kosovo,UNK,XK,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+Least developed countries: UN classification,LDC,XL,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Low income,LIC,XM,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Lower middle income,LMC,XN,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Low & middle income,LMY,XO,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Middle income,MIC,XP,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+Middle East & North Africa (developing only),MNA,XQ,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,0
+High income: nonOECD,NOC,XR,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+High income: OECD,OEC,XS,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Upper middle income,UMC,XT,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+North America,NAC,XU,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Not classified,INX,XY,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+"Yemen, Rep.",YEM,YE,Sana'a,44.2075,15.352,Lower middle income,IDA,Asia,Western Asia,35954502304,26832000,0
+East Asia & Pacific (all income levels),EAS,Z4,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Europe & Central Asia (all income levels),ECS,Z7,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+South Africa,ZAF,ZA,Pretoria,28.1871,-25.746,Upper middle income,IBRD,Africa,Southern Africa,3.50141E+11,54767000,0
+Sub-Saharan Africa (developing only),SSA,ZF,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Sub-Saharan Africa (all income levels),SSF,ZG,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Latin America & Caribbean (all income levels),LCN,ZJ,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Zambia,ZMB,ZM,Lusaka,28.2937,-15.3982,Lower middle income,IDA,Africa,Eastern Africa,27066230009,16212000,0
+Middle East & North Africa (all income levels),MEA,ZQ,,NA,NA,Aggregates,Aggregates,NA,NA,NA,NA,1
+Zimbabwe,ZWE,ZW,Harare,31.0672,-17.8312,Low income,Blend,Africa,Eastern Africa,14196912535,15603000,0
