@@ -9,7 +9,8 @@
 # - App
 # 
 # Inputs:
-# - 
+# - code/s01_init.R
+# - code/s03_viz.R
 # 
 # Outputs:
 # - None
@@ -51,13 +52,13 @@
 
 # load functions and constants
 source("code/s03_viz.R")
+# pacman::p_load(
+#   shiny,
+#   shinydashboard
+# )
 
-# loading required libraries
-load_packages(c(
-  "shiny",
-  "shinydashboard"
-))
-
+library(shiny)
+library(shinydashboard)
 
 ###########################################################################
 # UI ----------------------------------------------------------------------
@@ -82,7 +83,8 @@ UI <- dashboardPage( # UI
       menuItem("Languages & Currencies",  tabName = "language_and_currency", icon = icon("language")),
       menuItem("Enonomy and Development", tabName = "econ_development",      icon = icon("money")),
       menuItem("Trade Exports ($M)",      tabName = "trade",                 icon = icon("truck")),
-      menuItem("Energy Use",              tabName = "energy_use",            icon = icon("plug"))
+      menuItem("Energy Use",              tabName = "energy_use",            icon = icon("plug")),
+      menuItem("References",              tabName = "info",                  icon = icon("info-circle"))
     ), # sidebarMenu
     
     
@@ -282,8 +284,22 @@ UI <- dashboardPage( # UI
       tabItem( # TAB 5 -- Energy Use
         tabName = "energy_use",
         fluidRow(sankeyNetworkOutput("sankey", height = "900px"))
-      ) # TAB 5
+      ), # TAB 5
       
+      tabItem(
+        tabName = "info",
+        fluidRow(
+          column(1,h1("")),
+          column(11,
+                 h2("Information about the data sources used"),
+                 a(h3("World Development Indicators Data"), href = "http://data.worldbank.org/products/wdi"),
+                 a(h3("WDI package - WDI API wrapper in R"), href ="https://cran.r-project.org/web/packages/WDI/WDI.pdf"),
+                 a(h3("Energy data for Sankey Plot - International Energy Agency"), href = "http://www.iea.org/etp/explore/"),
+                 a(h3("Bilateral Trade Chord Diagram data - Economics Web Institute"), href = "http://www.economicswebinstitute.org/ecdata.htm"),
+                 a(h3("Country Attributes - Languages and Currencies"), href = "https://github.com/mledoze/countries")
+                 )
+        )
+      )
       
     ) # TAB ITEMS
     

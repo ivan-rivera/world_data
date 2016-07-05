@@ -34,14 +34,29 @@
 # Preamble ----------------------------------------------------------------
 
 source("code/s00_init.R") # source init file
-load_packages(c(          # load packages (some will be dropped)
-  "viridis",
-  "ggthemes",
-  "chorddiag",            # * https://github.com/mattflor/chorddiag
-  "networkD3",            # * https://christophergandrud.github.io/networkD3/
-  "d3heatmap",            # * https://github.com/rstudio/d3heatmap
-  "plotly"                # * https://plot.ly/r/shiny-tutorial/
-))                        # * http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
+
+# if(!require(chorddiag)){
+#   pacman::p_load(devtools)
+#   devtools::install_github("mattflor/chorddiag")
+# }
+# 
+# pacman::p_load(
+#   viridis,    # * https://github.com/sjmgarnier/viridis
+#   ggthemes,   # * https://github.com/jrnold/ggthemes
+#   ggplot2,    # * https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
+#   chorddiag,  # * https://github.com/mattflor/chorddiag
+#   networkD3,  # * https://christophergandrud.github.io/networkD3/
+#   d3heatmap,  # * https://github.com/rstudio/d3heatmap
+#   plotly      # * https://plot.ly/r/shiny-tutorial/
+# )             # * http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
+
+library(viridis)
+library(ggthemes)
+library(ggplot2)
+library(chorddiag)
+library(networkD3)
+library(d3heatmap)
+library(plotly)
 
 
 # load the below data for testing

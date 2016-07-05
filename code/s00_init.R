@@ -17,7 +17,7 @@
 # Notes:
 # energy data extracted from: http://www.iea.org/etp/explore/
 # bilateral trade data extracted from: http://www.economicswebinstitute.org/data/bilateraltrade.zip
-
+# LIBRARY LOADING NOTE: This app is deployed on ShinyApps.io which requires packages to be declared as "library(x)", however to use the scripts manually, I suggest using pacman
 
 # Loading libraries -------------------------------------------------------
 
@@ -25,6 +25,16 @@
 R.version
 
 # Load libraries
+# if (!require("pacman")) install.packages("pacman")
+# library(pacman)
+# pacman::p_load(
+#   plyr,
+#   dplyr,
+#   tidyr,
+#   magrittr
+# )
+
+
 library(plyr)
 library(dplyr)
 library(tidyr)
@@ -76,31 +86,31 @@ color_df <- data.frame(
 
 # Functions ---------------------------------------------------------------
 
-# function designed to load libraries and report on their status
-load_packages <- function(pkg){
-
-  # load
-  loaded_pkg  <- unlist(lapply(pkg, require, character.only = TRUE))
-  
-  release_pkg <- lapply(pkg,function(x) packageDescription(x)$Date)
-  release_pkg[sapply(release_pkg, is.null)] <- NA
-  release_pkg <- unlist(release_pkg)
-
-  version_pkg <- unlist(lapply(pkg,function(x) as.character(packageVersion(x))))
-  version_pkg[sapply(version_pkg, is.null)] <- NA
-  version_pkg <- unlist(version_pkg)
-  
-  # get a list of available updates
-  old_pkg <- old.packages()[,c("Package","ReposVer")] %>% 
-    as.data.frame(stringsAsFactors=FALSE) %>%
-    dplyr::rename("package"     = Package,
-           "new_version" = ReposVer)
-  # put it all together
-  data.frame(package = pkg, 
-             loaded  = loaded_pkg,
-             release = release_pkg,
-             version = version_pkg,
-             stringsAsFactors = FALSE) %>%
-    left_join(old_pkg, by = "package")
-  
-}
+# function designed to load libraries and report on their status (useful utility but needs work around error handling)
+# load_packages <- function(pkg){
+# 
+#   # load
+#   loaded_pkg  <- unlist(lapply(pkg, require, character.only = TRUE))
+#   
+#   release_pkg <- lapply(pkg,function(x) packageDescription(x)$Date)
+#   release_pkg[sapply(release_pkg, is.null)] <- NA
+#   release_pkg <- unlist(release_pkg)
+# 
+#   version_pkg <- unlist(lapply(pkg,function(x) as.character(packageVersion(x))))
+#   version_pkg[sapply(version_pkg, is.null)] <- NA
+#   version_pkg <- unlist(version_pkg)
+#   
+#   # get a list of available updates
+#   old_pkg <- old.packages()[,c("Package","ReposVer")] %>% 
+#     as.data.frame(stringsAsFactors=FALSE) %>%
+#     dplyr::rename("package"     = Package,
+#            "new_version" = ReposVer)
+#   # put it all together
+#   data.frame(package = pkg, 
+#              loaded  = loaded_pkg,
+#              release = release_pkg,
+#              version = version_pkg,
+#              stringsAsFactors = FALSE) %>%
+#     left_join(old_pkg, by = "package")
+#   
+# }

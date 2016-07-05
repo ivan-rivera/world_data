@@ -19,11 +19,16 @@
 
 # Preamble ----------------------------------------------------------------
 
-# load packages
-load_packages(c("WDI","ggplot2"))
-
 # source init
 source("code/s00_init.R")
+# load packages
+# pacman::p_load(
+#   WDI,
+#   ggplot2
+# )
+
+library(WDI)
+library(ggplot2)
 
 #full list of indicators
 # indicator_index_full <- WDIcache()$series
@@ -75,24 +80,24 @@ for(txt_var in c("country",country_attriutes))
 }
 
 # validate data quality
-png(filename="outputs/data_extract_validation.png")
-wdi_data[,unlist(lapply(wdi_data, class)) == "numeric"] %>% # retain numeric only 
-  gather(var, val, -year) %>%
-  mutate(val = as.numeric(val)) %>%
-  group_by(year,var) %>%
-  summarise(nas = sum(ifelse(is.na(val),0,1))/n()) %>% # calc proportion of non-missings over time
-  ungroup() %>% left_join(
-    indicator_index %>% 
-      select(label, description) %>% 
-      rename("var" = label),
-    by = "var"
-  ) %>%
-  ggplot(aes(
-    x = year,
-    y = nas
-  )) + geom_line() +
-  facet_wrap(~description)
-dev.off()
+# png(filename="outputs/data_extract_validation.png")
+# wdi_data[,unlist(lapply(wdi_data, class)) == "numeric"] %>% # retain numeric only 
+#   gather(var, val, -year) %>%
+#   mutate(val = as.numeric(val)) %>%
+#   group_by(year,var) %>%
+#   summarise(nas = sum(ifelse(is.na(val),0,1))/n()) %>% # calc proportion of non-missings over time
+#   ungroup() %>% left_join(
+#     indicator_index %>% 
+#       select(label, description) %>% 
+#       rename("var" = label),
+#     by = "var"
+#   ) %>%
+#   ggplot(aes(
+#     x = year,
+#     y = nas
+#   )) + geom_line() +
+#   facet_wrap(~description)
+# dev.off()
 
 
 # convert lat / longs into numeric

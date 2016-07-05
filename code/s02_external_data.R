@@ -28,24 +28,32 @@
 
 # Preamble ----------------------------------------------------------------
 
+# source init
 source("code/s00_init.R")
+# load libraries
+# pacman::p_load(
+#   readxl,
+#   rjson,
+#   rgdal,
+#   Matrix,
+#   igraph,
+#   xml2,
+#   XML
+# )
+
+library(readxl)
+library(rjson)
+library(rgdal)
+library(Matrix)
+library(igraph)
+library(xml2)
+library(XML)
+
 
 #load("data/dim_country.Rdata") # country dimension
 load("data/wdi_data.Rdata") # WDI data
 dim_country <- read.csv("data/dim_country.csv", stringsAsFactors = FALSE)
 
-# load libraries
-load_packages(c(
-    "readxl",
-    "rjson",
-    "rgdal",
-    "Matrix",
-    "igraph",
-    "tidyr",
-    "magrittr",
-    "xml2",
-    "XML"
-  ))
 
 
 # Load country data -------------------------------------------------------
